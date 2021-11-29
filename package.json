@@ -1,0 +1,42 @@
+{
+  "name": "parcel-ts-react-sb-tailwind",
+  "version": "0.0.1",
+  "packageManager": "yarn@3.1.1",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "dev": "parcel test/index.html",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.4.0",
+    "@storybook/addon-docs": "^6.4.0",
+    "@storybook/addon-essentials": "^6.4.0",
+    "@storybook/addon-links": "^6.4.0",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.4.0",
+    "autoprefixer": "latest",
+    "babel-loader": "^8.2.3",
+    "cssnano": "^5.0.12",
+    "parcel": "^2.0.1",
+    "postcss": "^8.4.4",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "latest",
+    "typescript": "^4.5.2"
+  }
+}
